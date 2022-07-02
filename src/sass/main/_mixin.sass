@@ -5,3 +5,21 @@
 @mixin text-12
     font-size: 12px
     line-height: 20px
+
+@mixin button
+    width: 160px
+    height: 45px
+    background-color: $main_color
+    border-radius: 20px
+    border: 0
+    text-transform: uppercase
+    color: #fff
+    cursor: pointer
+    margin-left: 10px
+    &:hover
+        transform: scale(1.05)
+        transition: 0.5s all
+
+@mixin text-15
+    font-size: 15px
+    line-height: 16px

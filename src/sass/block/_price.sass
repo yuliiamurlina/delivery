@@ -1,0 +1,72 @@
+.price
+    min-height: 1055px
+    padding: 67px 0
+    &__title
+        @include title
+    .divider
+        @include divider
+        margin-top: 25px
+    &__text
+        @include subtitle
+        width: 860px
+        margin: 20px auto 50px
+    &-wrapper
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        gap: 28px
+    .block
+        height: 415px
+        width: 250px
+        border: solid 1px #d3d3d3
+        padding: 0 10px
+        &__header
+            margin-top: 5px
+            background-color: #25333c
+            width: 100%
+            min-height: 75px
+            text-align: center
+            p
+                font-size: 20px
+                text-transform: uppercase
+                padding-top: 25px
+                color: #fff
+        &__img
+            display: block
+            margin: 28px auto
+        &__title
+            font-size: 16px
+            text-align: center
+            color: #2e2e2e
+            text-transform: uppercase
+        &__price
+            margin-top: 3px
+            font-size: 26px
+            text-align: center
+            color: $main_color
+        &__descr
+            margin-top: 30px
+            font-size: 14px
+            color: #2e2e2e
+            text-align: center
+        &__button
+            @include button
+            display: block
+            margin: 35px auto 0
+    .body
+        margin-top: 72px
+        &__title
+            font-size: 28px
+            text-align: center
+        &__form
+            position: relative
+            height: 220px
+            width: 100%
+            border: solid 1px #d3d3d3
+            margin-top: 105px
+        &__img
+            position: absolute
+            top: -50px
+            left: 50%
+            transform: translateX(-50%)
+            background-color: #fff
+        form

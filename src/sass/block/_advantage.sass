@@ -1,0 +1,27 @@
+.advantage
+    background-color: #f3f3f3
+    min-height: 680px
+    padding: 37px 0 35px
+    &__title
+        @include title
+    &-wrapper
+        margin-top: 46px
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-row: repeat(4.1fr)
+        justify-content: space-between
+    &__block
+        max-width: 645px
+        display: flex
+    &__img
+        margin-top: 23px
+        height: 72px
+        margin-right: 20px
+    &__subtitle
+        font-size: 16px
+        font-weight: 800
+        color: $main_color
+    &__text
+        font-size: 14px
+        line-height: 20px
+        max-width: 430px

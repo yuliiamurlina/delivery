@@ -1,0 +1,125 @@
+@media ( max-width: 1140px )
+    .promo
+        .header
+            &__logo
+                margin-left: 10px
+                width: 70px
+            &__menu
+                margin-left: 50px
+            &__tel
+                width: 20px
+                span
+                    display: none
+                a
+                    position: absolute
+                    font-size: 16px
+                    margin-top: 16px
+                    right: 18px
+                    top: 0
+            &__button
+                margin-right: 0
+                margin-top: 26px
+        .container
+            width: 992px
+        .body
+            &__title
+                font-size: 64px
+            &__subtitle
+                font-size: 36px
+
+@media ( max-width: 992px )
+    .promo
+        .container
+            width: 768px
+        .header
+            height: 60px
+            position: relative
+            .hamburger
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                width: 40px
+                height: 20px
+                top: 20px
+                left: 10px
+                position: absolute
+                cursor: pointer
+                div
+                    display: block
+                    height: 3px
+                    width: 40px
+                    background-color: #fff
+            &__logo
+                display: none
+            &__menu
+                display: none
+                width: 2px
+            &__tel
+                width: 20px
+                a
+                    right: 255px
+                    top: 11px
+            &__button
+                margin-right: -90px
+                margin-top: 2px
+        .body
+            &__title
+                font-size: 50px
+            .hr
+                width: 750px
+                .body__long
+                    width: 340px
+
+@media ( max-width: 768px )
+    .promo
+        .container
+            width: 576px
+        .header
+            &__logo
+                display: none
+            &__menu
+                display: none
+                width: 2px
+            &__tel
+                width: 20px
+                a
+                    right: 215px
+                    top: 11px
+            &__button
+                margin-right: -90px
+                margin-top: 2px
+        .body
+            &__title
+                font-size: 50px
+            .hr
+                width: 570px
+                .body__long
+                    width: 250px
+
+@media ( max-width: 576px )
+    .promo
+        .container
+            width: 319px
+        .header
+            &__tel
+                display: none
+            &__button
+                margin-right: -34px
+                margin-top: 2px
+        .body
+            padding-top: 30px
+            &__suptitle
+                font-size: 20px
+            &__title
+                font-size: 45px
+            &__subtitle
+                font-size: 24px
+            .hr
+                width: 300px
+                .body__long
+                    width: 120px
+            &-wrapper
+                grid-template-columns: repeat(2, 1fr)
+                grid-template-rows: repeat(2, 1fr)
+            &__descr
+                font-size: 12px

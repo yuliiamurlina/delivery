@@ -1,0 +1,72 @@
+.rewiev
+    min-height: 450px
+    padding: 57px 0
+    &__title
+        @include title
+    .divider
+        @include divider
+        margin: 20px auto
+    &__subtitle
+        @include subtitle
+    &-wrapper
+        margin-top: 38px
+        display: flex
+        .block
+            width: 480px
+            margin: 86px 57px 0
+            opacity: 0.3
+            &__img
+                width: 86px
+                height: 86px
+                border-radius: 100%
+                object-fit: cover
+                display: block
+                margin: 0 auto
+            .block__title
+                font-size: 14px
+                color: #3a3a3a
+                text-align: center
+                margin-top: 15px
+
+            .block__text
+                margin-top: 5px
+                font-size: 10px
+                text-align: center
+
+        .block__active
+            width: 806px
+            margin: 2px 57px 0
+            opacity: 1
+            position: relative
+
+            .block__img
+                width: 144px
+                height: 144px
+            .arrow-l
+                position: absolute
+                content: ''
+                width: 20px
+                height: 20px
+                border-top: 2px solid $main_color
+                border-right: 2px solid $main_color
+                transform: rotate(225deg)
+                top: 50px
+                left: 50px
+                cursor: pointer
+            .arrow-r
+                position: absolute
+                content: ''
+                width: 20px
+                height: 20px
+                border-top: 2px solid $main_color
+                border-right: 2px solid $main_color
+                transform: rotate(45deg)
+                top: 50px
+                right: 50px
+                cursor: pointer
+            .block__title
+                font-size: 18px
+                margin-top: 15px
+            .block__text
+                font-size: 15px
+                margin-top: 20px

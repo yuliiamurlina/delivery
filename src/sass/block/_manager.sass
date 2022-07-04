@@ -1,0 +1,48 @@
+.manager
+    min-height: 700px
+    .header
+        height: 200px
+        background: url('../img/manager.jpg') center center / cover no-repeat
+        padding: 70px 0 89px
+        position: relative
+        &__img
+            display: block
+            margin: 0 auto
+        &__title
+            margin-top: 30px
+            text-align: center
+            font-size: 26px
+            font-weight: 800
+            color: #fff
+        &__text
+            text-align: center
+            color: #fff
+            width: 900px
+            margin: 10px auto 0
+    .body
+        background-color: #f3f3f3
+        padding: 50px 0
+        &__title
+            @include title
+        &-wrapper
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            margin-top: 35px
+            .block
+                width: 250px
+                margin-bottom: 30px
+                &__img
+                    width: 50px
+                    display: block
+                    margin: 0 auto
+                &__title
+                    font-size: 17px
+                    color: $main_color
+                    text-align: center
+                    margin-top: 5px
+                &__text
+                    font-size: 14px
+                    color: #3a3a3a
+                    text-align: center
+                    margin-top: 10px

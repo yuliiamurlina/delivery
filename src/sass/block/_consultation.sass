@@ -1,0 +1,55 @@
+.consultation
+    min-height: 430px
+    background: url('../img/consultation.jpg') center center / cover no-repeat
+    padding: 60px 0 70px
+    &-wrapper
+        width: 895px
+        height: 300px
+        margin: 0 auto
+    &__header
+        background-color: #25333c
+        height: 65px
+        padding-top: 20px
+        text-align: center
+    &__title
+        font-size: 19px
+        font-weight: 200
+        color: #fff
+        text-transform: uppercase
+    &__subtitle
+        font-size: 14px
+        font-weight: 200
+        color: #fff
+        text-transform: uppercase
+    &__body
+        background-color: #fff9f988
+        min-height: 230px
+        padding: 20px 0 27px
+    &__form
+        .inputs
+            display: flex
+            justify-content: center
+
+            input
+                width: 270px
+                height: 45px
+                border: #a5a6a5 1px solid
+                border-radius: 50px
+                margin: 0 3px
+                padding: 0 20px
+        textarea
+            display: block
+            margin: 0 auto
+            width: 815px
+            height: 70px
+            margin-top: 7px
+            outline: none
+            border: #a5a6a5 1px solid
+            border-radius: 10px
+            resize: none
+            padding: 20px
+    &__button
+        @include button
+        display: block
+        margin: 20px auto 0
+        font-size: 14px
